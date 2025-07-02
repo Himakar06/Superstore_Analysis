@@ -10,9 +10,6 @@ Identify the key factors affecting profit and sales across regions, categories, 
 - Certain regions consistently underperform
 - Categories like Office Supplies have thin margins
 
-## 🤖 ML Results
-Used regression models to predict profit:
-- Best Model: Random Forest Regressor (R² = 0.82)
 
 ## ✅ Recommendations
 - Reduce discounting in the Technology category
@@ -20,7 +17,7 @@ Used regression models to predict profit:
 - Improve delivery speed to boost customer satisfaction
 
 ## 🚀 Future Work
-- Build an interactive dashboard (Power BI / Tableau)
+- Build an interactive dashboard 
 - Develop a churn prediction model
 
 ## 📁 Project Structure
