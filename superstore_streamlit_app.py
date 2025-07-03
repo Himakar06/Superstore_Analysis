@@ -61,6 +61,21 @@ subcat_group = df.groupby('Sub-Category')[['Sales', 'Profit']].sum().reset_index
 fig2 = px.bar(subcat_group, x='Sub-Category', y=['Sales', 'Profit'], barmode='group')
 st.plotly_chart(fig2)
 
+st.subheader("📊 Top 10 Profitable Products")
+
+top_products = df.groupby('Product Name')['Profit'].sum().nlargest(10).reset_index()
+
+fig = px.bar(
+    top_products,
+    x='Product Name',
+    y='Profit',
+    color='Profit',
+    text_auto='$.2s',
+    title="Top Earning Products"
+)
+fig.update_layout(xaxis={'categoryorder':'total descending'})
+st.plotly_chart(fig, use_container_width=True)
+
 # -------------------------
 # Section 3: Customer Segmentation
 # -------------------------
