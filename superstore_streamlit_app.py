@@ -29,7 +29,7 @@ st.header("1. Load & Clean Data")
 @st.cache_data
 
 def load_data():
-    df = pd.read_csv("Superstore.csv", encoding='latin1')
+    df = pd.read_csv("data/Superstore.csv", encoding='latin1')
     df.drop(columns='Row ID', inplace=True)
     df['Order Date'] = pd.to_datetime(df['Order Date'])
     df['Order Year'] = df['Order Date'].dt.year
