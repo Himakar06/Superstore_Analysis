@@ -24,3 +24,6 @@ Identify the key factors affecting profit and sales across regions, categories, 
 - `data/` – Dataset
 - `notebooks/` – Jupyter notebooks for EDA and modeling
 - `visuals/` – Saved plots
+
+
+https://superstoreanalysis-f5dckrcxdfl2xnjtbe3ftp.streamlit.app/
