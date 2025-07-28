@@ -10,15 +10,14 @@ interactive Streamlit app.
 
 Here are some example visuals from the Streamlit dashboard:
 
-### 🟡 Overview Dashboard
-![Overview Dashboard](dashboard.png)
+### 🟡 Dashboard Overview 
+![Dashboard](images/dashboard.png)
 
 ### 🔵 Exploratory Data Analysis
-![Data Analysis](eda.png)
+![EDA](images/eda.png)
 
 ### 🟢 Churn Analysis
-![Churn Analysis](churn_analysis.png)
-
+![Churn Analysis](images/churn_analysis.png)
 
 -------
 ## 📌 Business Objective
