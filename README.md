@@ -14,7 +14,7 @@ Here are some example visuals from the Streamlit dashboard:
 ![Overview Dashboard](dashboard.png)
 
 ### 🔵 Exploratory Data Analysis
-![ED Analysis](eda.png)
+![Data Analysis](eda.png)
 
 ### 🟢 Churn Analysis
 ![Churn Analysis](churn analysis.png)
