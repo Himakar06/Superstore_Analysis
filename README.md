@@ -5,6 +5,21 @@ This project provides a complete end-to-end analysis and prediction system for S
 interactive Streamlit app.
 
 🔗 **Live App**: [Streamlit Dashboard](https://superstoreanalysis-f5dckrcxdfl2xnjtbe3ftp.streamlit.app/)
+
+## 📊 Sample Dashboards
+
+Here are some example visuals from the Streamlit dashboard:
+
+### 🟡 Overview Dashboard
+![Overview Dashboard](dashboard.png)
+
+### 🔵 Exploratory Data Analysis
+![ED Analysis](eda.png)
+
+### 🟢 Churn Analysis
+![Churn Analysis](churn_analysis.png)
+
+
 -------
 ## 📌 Business Objective
 
