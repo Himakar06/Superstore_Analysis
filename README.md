@@ -17,7 +17,7 @@ Here are some example visuals from the Streamlit dashboard:
 ![ED Analysis](eda.png)
 
 ### 🟢 Churn Analysis
-![Churn Analysis](churn_analysis.png)
+![Churn Analysis](churn analysis.png)
 
 
 -------
